@@ -50,3 +50,10 @@ sum ++ ;
 
 //decrementing number:
 sum -- ;
+
+//decminal numbers (floating points):
+var myDecimal = 0.07 ;
+
+//operations work the same as int 
+//remainder (modulus) is % 
+// +=  or -= works 
