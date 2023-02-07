@@ -44,3 +44,9 @@ var diff = 45 - 15 ;
 var mul = 10 * 10 ;
 
 var div = 66 / 6 ; 
+
+//increment number
+sum ++ ;
+
+//decrementing number:
+sum -- ;
