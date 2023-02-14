@@ -15,7 +15,10 @@ If you're already a proficient programmer, you won't find much value in this.
 9. Array methods
 10. Scope of variables
 11. If statements 
- 
+12. Conditional statements 
+13. Switch statements
+14. Objects
+
 
  */
 
@@ -145,3 +148,41 @@ function checkif(myVar) {
         return false; 
     }
 }
+/*
+== attempts to compare the two values beign compared to a common data type
+=== checks if it is stricly equal, without type conversion  
+*/
+
+// (conditional and &&), conditional or || 
+
+//switch statements:
+function caseInSwitch(val) {
+    switch(val) {
+        case 1: 
+            answer = "alpha";
+            break;
+
+        case 2: 
+            answer = "beta";
+            break;
+        
+        case 3: 
+            answer = "gamma";
+            break;
+
+        case 4: 
+            answer = "delta";
+            break;
+
+    }
+    return answer ;
+}
+
+//Objects
+var ourDog = {
+    "name" : "rocky" ,  
+    "legs" : 4 ,
+    "friend" : ["dog1", "dog2"]
+}; 
+
+console.log(ourDog.name) ; 
